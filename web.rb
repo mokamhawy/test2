@@ -10,7 +10,7 @@ Dotenv.load
 Stripe.api_key = ENV['STRIPE_TEST_SECRET_KEY']
 
 use Rack::Session::EncryptedCookie,
-  :secret => 'Stna#showy@ya&mhaj*8900328018r632786r' # Actually use something secret here!
+  :secret => 'Actually use something secret here!' # Actually use something secret here!
 
 def log_info(message)
   puts "\n" + message + "\n\n"
